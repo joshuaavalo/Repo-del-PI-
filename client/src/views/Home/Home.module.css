@@ -1,0 +1,31 @@
+.homeContainer {
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.homeTitle {
+  margin-top: 40px; /* Espacio superior */
+}
+
+.filters {
+  margin-top: 20px; /* Espacio superior */
+}
+
+.searchBar {
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+.filterButton {
+  background-color: #28a745; /* Color de fondo del botón de filtro */
+  color: #fff; /* Color del texto */
+  border: none; /* Quita el borde */
+  padding: 10px 20px; /* Espaciado interno */
+  margin: 0 5px; /* Margen entre botones */
+}
+
+.sortButton {
+  background-color: #17a2b8; /* Color de fondo del botón de ordenar */
+  color: #fff; /* Color del texto */
+  border: none; /* Quita el borde */
+  padding: 10px 20px; /* Espaciado interno */
+  margin: 0 5px; /* Margen entre botones */
+}

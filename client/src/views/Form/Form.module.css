@@ -1,0 +1,66 @@
+/* Form.module.css */
+
+.formContainer {
+    background-image: url("../Landing/fondos/imagen_fondo2.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    width: 100%; /* Establece el ancho al 100% */
+    display: flex; /* Usa flexbox para alinear el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    overflow: hidden; /* Oculta el desplazamiento */
+}
+.formField {
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+    background-color: transparent; /* Hace el fondo transparente */
+    color: orange; /* Cambia el color del texto a naranja */
+}
+
+.inputField:focus {
+    outline: none;
+    border-color: dodgerblue; /* Cambia el color del borde al enfocar */
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.submitButton:hover {
+    background-color: #4CAF50; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.submitButton:active {
+    background-color: #45a049; /* Cambia el color de fondo al hacer clic */
+}
+
+.errorMessage {
+    color: red;
+}
+
+.imagePreview {
+    max-width: 100%;
+    margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.cardLink {
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.card {
+  border: 2px solid #ccc; /* Borde de 2px sólido */
+  border-radius: 8px; /* Borde redondeado */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alinea el contenido al centro */
+  background-color: #f9f9f9; /* Color de fondo */
+}
+
+.card img {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto; /* Ajusta la altura automáticamente */
+}
