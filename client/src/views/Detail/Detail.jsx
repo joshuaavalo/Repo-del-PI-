@@ -10,7 +10,7 @@ const Detail = () => {
   const { id } = useParams();   // Obtiene el ID del perro de los parámetros de la URL
   const navigate = useNavigate();  // hook para volver
   const dogById = useSelector((state) => state.dogById); // Obtiene los detalles del perro del estado global
-  console.log("soy el console loggggggggg",dogById);
+  console.log("soy el console log",dogById);
   useEffect(() => {
     dispatch(getById(id)); // Dispara la acción para obtener los detalles del perro
   }, [dispatch, id]);
@@ -31,7 +31,7 @@ const Detail = () => {
             <h2>Nombre: {dogById.name}</h2>
             <p>Altura: min {dogById.height_min}cm - max {dogById.height_max}cm</p>
             <p>Peso: min {dogById.weight_min}kg - max {dogById.weight_max}kg</p>
-            <p>Temperamentos: {dogById.temperaments}</p>
+            <p>Temperamentos: {dogById.temperament}</p>
             <p>Años de vida: {dogById.life_span}</p>
             <button onClick={goback}> volver </button>
           </div>
